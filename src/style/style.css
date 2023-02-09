@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    color: #305a9c;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.nav-title {
+    color: #305a9c;
+    font-size: larger;
+}
+
+#main-section {
+    margin-top: 20px;
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.brand-lable {
+    font-weight: normal;
+    color: #305a9c;
+    margin-bottom: 10px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#customerName,
+#productName,
+#productPrice,
+#productQTY {
+    width: 100%;
+    padding: 4px 10px;
+}
+
+.title {
+    width: 130px;
+}
+
+hr {
+    margin: 20px 0;
+    color: #aaa;
+}
+
+input:focus {
+    outline: none;
+}
+
+#submit-btn,
+#print-btn {
+    padding: 10px 20px;
+    background: #305a9c;
+    color: #fff;
+    border: 1px solid #3676DF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result-table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#result-table thead {
+    background: #3676DF;
+    color: #fff;
+}
+
+#result-table tr td {
+    text-align: center;
+    padding: 3px;
+}
+
+#result-table tr:nth-child(2n) {
+    background: #eee;
+}
+
+tfoot {
+    background: #3676DF;
+    color: #fff;
+}
+tfoot #sum{
+    text-align: right;
+    margin-right: 15px;
+}

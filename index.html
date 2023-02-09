@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InvoiceCreationWebApp</title>
+    <!-- links -->
+    <link rel="stylesheet" href="/src/style/style.css">
+    <title>رنگ و ابزار اکبری</title>
 </head>
+
 <body>
-    
+    <!-- navbar -->
+    <nav>
+        <p class="nav-title">InvoiceCreationWebApp</p>
+        <img src="/assets/image/logo.png" width="48">
+    </nav>
+    <section id="holder-section">
+        <section id="main-section">
+            <h3 class="brand-lable">InvoiceCreationWebApp</h3>
+            <h4 class="brand-lable">wellcom</h4>
+            <div class="group group-customerName">
+                <p class="title" for="customerName">Customer Name :</p>
+                <input id="customerName" class="customerName" type="text" name="customerName" />
+            </div>
+            <hr>
+            <div class="group">
+                <p class="title" for="productName">Product Name :</p>
+                <input id="productName" type="text" name="productName" />
+            </div>
+            <div class="group">
+                <p class="title" for="productPrice">per product:</p>
+                <input id="productPrice" type="number" name="productPrice" />
+            </div>
+            <div class="group">
+                <p class="title" for="productQTY">Number :</p>
+                <input id="productQTY" type="number" name="productQTY" />
+            </div>
+            <input type="button" value="submit" id="submit-btn">
+            <hr>
+            <table id="result-table">
+                <thead>
+                    <tr>
+                        <th>product</th>
+                        <th>Price</th>
+                        <th>Number</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="result-body">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <div id="sum"></div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <input type="button" value="Invoice printing" id="print-btn">
+        </section>
+    </section>
+    </section>
+
+    <script src="/src/js/main.js"></script>
 </body>
+
 </html>
