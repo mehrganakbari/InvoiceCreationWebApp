@@ -101,3 +101,17 @@ tfoot #sum{
     text-align: right;
     margin-right: 15px;
 }
+
+@media only screen and (max-width:420px) {
+    .group {
+        flex-direction: column;
+    }
+
+    #customerName,
+    #productName,
+    #productPrice,
+    #productQTY {
+        width: 100%;
+        padding: 4px;
+    }
+}
