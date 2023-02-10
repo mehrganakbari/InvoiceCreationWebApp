@@ -1,0 +1,98 @@
+nav{
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lalezar', cursive;
+    background: #eee;
+    color: #305a9c;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.nav-title {
+    color: #305a9c;
+    font-size: larger;
+}
+
+#main-section {
+    margin-top: 20px;
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    direction: ltr;
+}
+
+.brand-lable {
+    font-weight: normal;
+    color: #305a9c;
+    margin-bottom: 10px;
+}
+
+.group {
+    display: none;
+}
+
+.group-customerName{
+    display: flex;
+    margin: 20px 0;
+}
+
+.customerName{
+    border:none;
+    outline: none;
+    color: #3676DF;
+    width: 200px;
+    padding: 4px;
+    font-family: 'Lalezar', cursive;
+}
+
+hr {
+    margin: 20px 0;
+    color: #aaa;
+}
+
+#submit-btn,
+#print-btn {
+    display: none;
+}
+
+#result-table{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #3676DF;
+}
+
+#result-table thead {
+    color: #fff;
+}
+
+#result-table tr td {
+    text-align: center;
+    padding: 3px;
+}
+
+#result-table tr:nth-child(2n) {
+    background: #eee;
+}
+
+tfoot {
+    color: #fff;
+}
+tfoot #sum{
+    text-align: left;
+    margin-left: 15px;
+}

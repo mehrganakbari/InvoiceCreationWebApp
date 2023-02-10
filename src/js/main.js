@@ -28,5 +28,11 @@ submitBtn.onclick = function () {
     productPrice.value = ""
     productQTY.value = ""
 
-    sumEle.innerText = "Total payable : " + sum
+    sumEle.innerText = "Total payable : " + sum + " $ "
+}
+
+const printBtn = document.getElementById("print-btn");
+
+printBtn.onclick = function () {
+    window.print();
 }
